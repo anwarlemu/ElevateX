@@ -5,7 +5,7 @@ p {
 
 body {
 	margin: 0px;
-	background-image: url("../img/landing-bg.png");
+	background-image: url("../img/l-bg.png");
 	background-size: 100% ;
 	margin-left: 50px;
 }
@@ -21,3 +21,27 @@ body {
 	color: #fff;
 	margin-right: 300px;
 }
+
+.logo img {
+	height: 160px;
+	width: 160px;
+}
+
+/* Media Queries*/
+
+@media only screen
+	and (max-device-width: 325px) {
+
+		body {
+			background-size: 232%;
+	   		background-position-x: center;
+   			background-position-y: 209px;
+   			}
+
+   		.home-text b {
+   			font-size: 80px;
+   			}
+
+   		.r-date p {
+   			font-size: 40px;
+   		}
