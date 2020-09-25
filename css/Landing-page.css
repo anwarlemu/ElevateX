@@ -30,7 +30,8 @@ body {
 /* Media Queries*/
 
 @media only screen
-	and (max-device-width: 325px) {
+	and (min-device-width: 320px)
+	and (max-device-width: 750px) {
 
 		body {
 			background-size: 232%;
@@ -45,3 +46,38 @@ body {
    		.r-date p {
    			font-size: 40px;
    		}
+   		
+   	}
+
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 770px) {
+
+		body {
+			background-size: 240%;
+			background-position-x: 1605px;
+			background-position-y: 160px; 
+		}
+	}
+
+@media only screen
+	and (min-device-width: 430px)
+	and (max-device-width: 770px) {
+
+		body {
+			background-size: 190%;
+			background-position-x: center;
+			background-position-y: 50px; 
+		}
+	}
+
+@media only screen
+	and (min-device-width: 775px)
+	and (max-device-width: 1025px) {
+
+		body {
+			background-size: 145%;
+			background-position-x: center;
+			background-position-y: -40px; 
+		}
+	}
