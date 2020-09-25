@@ -58,6 +58,12 @@ body {
 			background-position-x: 1605px;
 			background-position-y: 160px; 
 		}
+
+   		.home-text b {
+   			font-size: 90px;
+   			}
+
+   		
 	}
 
 @media only screen
@@ -69,6 +75,12 @@ body {
 			background-position-x: center;
 			background-position-y: 50px; 
 		}
+
+   		.home-text b {
+   			font-size: 90px;
+   			}
+
+   		
 	}
 
 @media only screen
@@ -80,4 +92,10 @@ body {
 			background-position-x: center;
 			background-position-y: -40px; 
 		}
+
+   		.home-text b {
+   			font-size: 100px;
+   			}
+
+   		
 	}
